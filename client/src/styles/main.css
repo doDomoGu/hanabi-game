@@ -1,0 +1,131 @@
+:root {
+  --bg0: #07111d;
+  --bg1: #10233a;
+  --ink: #f4efe6;
+  --muted: #9bb0c7;
+  --accent: #e8a23a;
+  --accent-2: #3ec7c2;
+  --danger: #e35d6a;
+  --ok: #6dcb7a;
+  --card: #162a42;
+  --line: rgba(255, 255, 255, 0.12);
+  --red: #e35d6a;
+  --yellow: #e8c547;
+  --green: #5ecf86;
+  --blue: #5b9cf5;
+  --white: #f2f4f7;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  color: var(--ink);
+  background: var(--bg0);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 50% -10%, rgba(62, 199, 194, 0.18), transparent 55%),
+    radial-gradient(900px 500px at 100% 20%, rgba(232, 162, 58, 0.12), transparent 50%),
+    linear-gradient(180deg, var(--bg1), var(--bg0) 40%);
+  min-height: 100vh;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.app-shell {
+  max-width: 480px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 16px 16px calc(16px + env(safe-area-inset-bottom));
+}
+
+.panel {
+  background: rgba(12, 28, 46, 0.72);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 16px;
+  backdrop-filter: blur(8px);
+}
+
+.btn {
+  appearance: none;
+  border: 0;
+  border-radius: 14px;
+  padding: 14px 16px;
+  background: var(--accent);
+  color: #1a1205;
+  font-weight: 700;
+  width: 100%;
+  min-height: 48px;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.btn.secondary {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+
+.btn.ghost {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--ink);
+}
+
+.btn.danger {
+  background: var(--danger);
+  color: white;
+}
+
+.field {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.field label {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.field input {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: rgba(0, 0, 0, 0.25);
+  color: var(--ink);
+  padding: 14px 12px;
+  outline: none;
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.error {
+  color: var(--danger);
+  font-size: 13px;
+  margin: 8px 0;
+}
+
+.stack {
+  display: grid;
+  gap: 12px;
+}
