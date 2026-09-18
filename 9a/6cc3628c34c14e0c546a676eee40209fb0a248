@@ -1,0 +1,95 @@
+.gitignore
+  s_702689bb942417::t_a380b9bad65131 1-9
+client/src/App.vue
+  s_702689bb942417::t_40e0adc19a72b8 1-8
+package.json
+  s_702689bb942417::t_ae2bf06ca2a00b 1-20
+client/src/router/index.js
+  s_702689bb942417::t_cea20cf236cc4e 7
+  s_702689bb942417::t_f5ff13374aa25c 1-6,8-15
+client/src/views/HomeView.vue
+  s_702689bb942417::t_0e56e426d3dbe1 1-4,6-86
+  s_702689bb942417::t_5999b3ad523cfe 5
+client/src/lib/labels.js
+  s_702689bb942417::t_3360ea022f5567 1-16
+server/src/store/fileStore.js
+  s_702689bb942417::t_d942481dcd66f8 1-41
+client/src/api/ws.js
+  s_702689bb942417::t_4045844e866946 3-4
+  s_702689bb942417::t_6344cfc6285ba8 1-2,5-77
+server/package.json
+  s_702689bb942417::t_e70f1600fe2f36 1-6,8-16
+  s_702689bb942417::t_9fc5ea7b9e9ba5 7
+server/src/ws/hub.js
+  s_702689bb942417::t_b581d03934dd33 1-136
+client/src/stores/room.js
+  s_702689bb942417::t_b930a7eb0b277f 1-166
+server/src/game/engine.js
+  s_702689bb942417::t_8fbb762f746e40 1-134,136-143,145-154,157,159,161,163-217,219-249,254-304,309-353
+  s_702689bb942417::t_a298e3dc3139c2 218
+  s_702689bb942417::t_a98fda874960b0 250-253
+  s_702689bb942417::t_62de148d59ab94 135,144,155-156,158,160,162
+  s_702689bb942417::t_da42181727a396 305-308
+server/src/index.js
+  s_702689bb942417::t_263904ec2ad264 1-45
+client/src/styles/main.css
+  s_702689bb942417::t_f4f84c2b355c8a 1-131
+README.md
+  s_702689bb942417::t_89b20d3d1d8ed0 1-11,13-14,16-41
+  s_702689bb942417::t_5afe4af1925d3d 12
+  s_702689bb942417::t_ea65ee1b0f1fbc 15
+client/src/main.js
+  s_702689bb942417::t_7b03144ee86b6f 1-7
+client/src/views/LobbyView.vue
+  s_702689bb942417::t_b0e343b31f71e3 1-151
+docs/需求文档.md
+  s_702689bb942417::t_9783aa432f0623 33-34,36
+  s_702689bb942417::t_d6979f20be08e9 336-349,351-353,355-361
+  s_702689bb942417::t_0673762bc5c3c9 1-5,7-9,12-32,35,37-41,43-176,179-203,205-306,309-318,320-335,362-377
+  s_702689bb942417::t_58341dd05a9e72 6,10-11
+  s_702689bb942417::t_f9ca3efff7566d 204
+  s_702689bb942417::t_8d8d52c9488088 177-178
+  s_702689bb942417::t_ea4cdd2eee7578 307-308,319
+  s_702689bb942417::t_2bcb7c773147e8 42
+client/package.json
+  s_702689bb942417::t_f27661ccbecd02 1-20
+client/src/views/GameView.vue
+  s_702689bb942417::t_bfb11e9be5b7c3 1-39,41-398
+  s_702689bb942417::t_c91eb8d2573c2d 40
+server/src/routes/api.js
+  s_702689bb942417::t_cbbd55ed32e4e7 1-97
+client/vite.config.js
+  s_702689bb942417::t_bbf522b0dc5b6f 1,4-20,23
+  s_702689bb942417::t_ca40bb4a4e9d9b 2-3,21-22,24
+client/.env.production
+  s_702689bb942417::t_75b95cf3b3da3e 1-3
+client/src/components/HanabiCard.vue
+  s_702689bb942417::t_b3a5068e6c3bdd 1-117,119
+  s_702689bb942417::t_dfbb3f3250eb5d 118
+server/src/room/roomService.js
+  s_702689bb942417::t_e5b03ecc71007d 1-213
+client/.env.example
+  s_702689bb942417::t_f50972b211f641 1-6
+client/src/api/http.js
+  s_702689bb942417::t_51178a84044da3 5-21,25
+  s_702689bb942417::t_e61b2f76a7559a 3,40
+  s_702689bb942417::t_35e7ed4bff800e 1-2,4,22-24,26-39,41-89
+client/index.html
+  s_702689bb942417::t_787f9861a99f91 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.44-trip",
+  "base_commit_sha": "9a6cc3628c34c14e0c546a676eee40209fb0a248",
+  "prompts": {},
+  "sessions": {
+    "s_702689bb942417": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "fbe1a61e-9ae3-45b9-9078-7f9636eec73a",
+        "model": "gpt-5.6-luna"
+      },
+      "human_author": "gulingjun <gulingjun@trip.com>"
+    }
+  }
+}
