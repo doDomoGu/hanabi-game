@@ -1,0 +1,42 @@
+deploy/hanabi-game.service
+  s_4cf73821909ce8::t_0f62db9c664e13 7,10
+  s_4cf73821909ce8::t_d2f7202db33822 1-6,8-9,11-16
+README.md
+  s_4cf73821909ce8::t_cb384ccc96acd7 13-14
+deploy/ssh-pass.exp
+  s_4cf73821909ce8::t_ff10cf3013a40f 1-25
+client/vite.config.js
+  s_4cf73821909ce8::t_4dd8c8e95daea3 14,18
+deploy/remote-deploy.sh
+  s_4cf73821909ce8::t_e2377134ab5680 1-25,30-37,44-49
+  s_4cf73821909ce8::t_62b542471167a7 38-43
+  s_4cf73821909ce8::t_1e199310d249c8 26-29
+deploy/scp-pass.exp
+  s_4cf73821909ce8::t_ff10cf3013a40f 1-25
+deploy.sh
+  s_4cf73821909ce8::t_1c081a3939a05f 1-73
+deploy/hanabi.conf
+  s_4cf73821909ce8::t_89fedb22ffe151 1,11
+  s_4cf73821909ce8::t_21426d7bb01339 4
+  s_4cf73821909ce8::t_ff10cf3013a40f 2-3,5-10,12-20
+.gitignore
+  s_4cf73821909ce8::t_d2ad266c90040e 10-12
+server/src/index.js
+  s_4cf73821909ce8::t_b7362390c0f179 10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.45-trip",
+  "base_commit_sha": "6a619cf5d86b3261bf2fc38748b0a86a1efaa08f",
+  "prompts": {},
+  "sessions": {
+    "s_4cf73821909ce8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "3d8a749c-f2b2-45db-ac96-886db5c1eacb",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "gulingjun <gulingjun@trip.com>"
+    }
+  }
+}
