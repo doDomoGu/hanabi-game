@@ -7,7 +7,7 @@ import apiRouter from './routes/api.js';
 import { attachWebSocket } from './ws/hub.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const PORT = Number(process.env.PORT || 3001);
+const PORT = Number(process.env.PORT || 3011);
 const CLIENT_DIST = path.resolve(__dirname, '../../client/dist');
 
 const app = express();

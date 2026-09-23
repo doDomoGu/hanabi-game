@@ -10,8 +10,8 @@ npm run dev
 ```
 
 - 前端：http://localhost:8090（代理到后端）
-- 后端：http://localhost:3001
-- WebSocket：`ws://localhost:3001/ws`
+- 后端：http://localhost:3011
+- WebSocket：`ws://localhost:3011/ws`
 - 生产部署路径：`/hanabi/`（由 `client/.env.production` 配置）
 
 生产构建：

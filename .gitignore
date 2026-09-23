@@ -7,3 +7,6 @@ dist/
 server/data/rooms/
 !server/data/rooms/.gitkeep
 .vite/
+
+# 部署私密配置（IP/账号/密码等），不要提交
+deploy.env
